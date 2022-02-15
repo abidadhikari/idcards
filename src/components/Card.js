@@ -21,11 +21,13 @@ const Card = (props) => {
     document.body.removeChild(link); 
   };
   return (
+    <>
     <div className="app__card" id= {props.name} >
       <Header />
       <div className="app__card-body">
         <div className="app__card-body_button">
-          <button type="button" onClick={handleDownloadImage}>Id Card</button>
+          {/* <button type="button" onClick={handleDownloadImage}>Id Card</button> */}
+          <button type="button">Identity Card</button>
         </div>
         <IdCardInfo 
             key={props.name}
@@ -41,7 +43,10 @@ const Card = (props) => {
       <div className="app__card-footer">
         <IdCardFooter />
       </div>
+      <button className="downloadBtn" onClick={handleDownloadImage}>Download Card</button>
     </div>
+    
+    </>
     )
 }
 

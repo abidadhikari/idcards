@@ -1,11 +1,11 @@
-import React, {useEffect} from "react";
+import React from "react";
 import Card from "./Card";
 import jsonObj from "../idcard.json";
 
 const App = () => {
-  useEffect (() => {
-    alert("Click the ID Card button to download")
-  })
+  // useEffect (() => {
+  //   alert("Click the ID Card button to download")
+  // })
   const names = ["Abid  Adhikari", "Amirdip Dhimal", "Amitabh Tamang", "Anish Dahal", "Anish Dhakal", "Anisha Dhakal", "Aruna Tamanag", "Ayush Tripathi", "Babi Khadka", "Bibek Budhathoki", "Bijaya Thapaliya", "Bikash Sah", "Binay Thakur", "Binita Tamang", "Bishal  Tamang", "Dukindra Shrestha", "Giriraj Thapa", "Hemant  Regmi", "Iraj Manandhar", "Karunesh Pandit", "Kebal Khadka", "Kumar  Basnet", "Muskan Rijal", "Pranav Thapa", "Pratikshya  Katwal", "Rakesh Joshi", "Rohan Sainju", "Rupesh Rai", "Sahil Khadka", "Samiksha  Ghimire", "Sandesh Thapa", "Sushil Chand", "Unishma  Dahal", "Utshav Khadka"];
 
   const namesForImage = ["Abid  Adhikari", "Amirdip Dhimal", "Amitabh Tamang", "suyog Dahal", "Anish Dhakal", "Anisha Dhakal", "Aruna Tamanag", "Ayush Tripathi", "Babi Khadka", "Bibek Budhathoki", "Bijaya Thapaliya", "Bikash Sah", "Binay Thakur", "Binita Tamang", "Bishal  Tamang", "Dukindra Shrestha", "Giriraj Thapa", "Hemant  Regmi", "Iraj Manandhar", "Karunesh Pandit", "Kebal Khadka", "Kumar  Basnet", "Muskan Rijal", "Pranav Thapa", "Pratikshya  Katwal", "Rakesh Joshi", "Rohan Sainju", "Rupesh Rai", "Sahil Khadka", "Samiksha  Ghimire", "Sandesh Thapa", "Sushil Chand", "Unishma  Dahal", "Utshav Khadka"];

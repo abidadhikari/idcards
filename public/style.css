@@ -41,6 +41,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 .app__card {
+  position: relative;
   width: 48%;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -49,6 +50,19 @@ body {
   margin-bottom: 4rem;
   background-image: url("./double-bubble-outline.png");
   background-position: cover;
+}
+.downloadBtn{
+  all: unset;
+  position: absolute;
+  padding: 0.5rem 1rem;
+  transform: translateY(0.5rem);
+  border-radius: 8px;
+  background-color: rgb(69, 57, 236);
+  color: #ffffff;
+  cursor: pointer;
+}
+.downloadBtn:hover{
+  background-color: rgb(50, 36, 247);
 }
 .app__cards-header {
   background-color: rgb(201, 24, 74);
